@@ -8,7 +8,7 @@ export default function CommunityPage() {
 	return (
 		<StyledShopPage>
 			<section className=''>
-				<ProductCard imgSrc={img001} productName='001' price='28' />
+				<ProductCard imgSrc={img001} productName='001' price='48' />
 			</section>
 		</StyledShopPage>
 	);
