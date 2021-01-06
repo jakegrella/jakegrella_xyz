@@ -5,7 +5,7 @@ import logo from '../../assets/jg-logo-svg.svg';
 //style
 import StyledHeader from './HeaderStyles';
 //svg social icons
-import { FaShoppingBag, FaUser } from 'react-icons/fa';
+import { FaShoppingBag } from 'react-icons/fa';
 import { BiMenu } from 'react-icons/bi';
 
 export default function Header() {
@@ -64,10 +64,13 @@ export default function Header() {
 				}
 			>
 				<li onClick={handleClick}>
-					<Link to='/projects'>Projects</Link>
+					<Link to='/work'>work</Link>
 				</li>
 				<li onClick={handleClick}>
 					<Link to='/about'>About</Link>
+				</li>
+				<li onClick={handleClick}>
+					<Link to='/shop'>shop</Link>
 				</li>
 				<li>
 					<a
@@ -86,7 +89,7 @@ export default function Header() {
 						</span>
 					</a>
 				</li>
-				<li>
+				{/* <li>
 					<button
 						className='snipcart-customer-signin'
 						href='#'
@@ -94,7 +97,7 @@ export default function Header() {
 					>
 						<FaUser />
 					</button>
-				</li>
+				</li> */}
 			</nav>
 			<button onClick={handleClick} className='mobile-nav-button'>
 				<BiMenu size={24} />
