@@ -9,7 +9,7 @@ const StyledHeader = styled.header`
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2rem 2.5rem;
+	padding: 1.5rem 2.5rem;
 
 	/* background-color: ${(pr) => pr.theme.white}; */
 	.web-nav {

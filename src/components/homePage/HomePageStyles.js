@@ -10,7 +10,7 @@ const StyledHomePage = styled.div`
 		flex-flow: row nowrap;
 		height: 100vh;
 		padding: 8.5rem 2.5rem 2.5rem 2.5rem;
-		/* border: 1px solid red; */
+		/* border: 2px solid red; */
 		a {
 			display: flex;
 			justify-content: center;
@@ -20,46 +20,27 @@ const StyledHomePage = styled.div`
 			height: 100%;
 			width: 100%;
 			margin: 0 1rem 0 0;
-			background-image: url('https://images.unsplash.com/photo-1606276969080-bf446209054a');
-			background-color: black;
-			background-position: center;
-			background-size: cover;
+			/* background-image: url('https://images.unsplash.com/photo-1597116635010-8b65f0dce76c'); */
+			/* background-color: black; */
+			/* background-position: center; */
+			/* background-size: cover; */
+			img {
+				width: 50%;
+				height: 50%;
+				object-fit: contain;
+			}
 		}
-		a:hover {
-			color: ${(pr) => pr.theme.babyBlue};
-		}
-		a:not(:first-child) {
+
+		/* a:not(:first-child) {
 			margin: 0 0 0 1rem;
 			background-image: url('https://images.unsplash.com/photo-1606191027636-a5a286e8fd7a');
-		}
+		} */
 		/* img {
 			border: 2px solid green;
 			height: 100%;
 			width: 100%;
 			object-fit: cover;
 		} */
-	}
-
-	.featured-products {
-		/* border: 2px solid blue; */
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		align-items: baseline;
-		margin: 2rem 0;
-		div {
-			padding: 1rem;
-		}
-	}
-
-	.featured-community {
-		margin: 2rem;
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		div {
-			/* border: 1px solid red; */
-		}
 	}
 
 	@media (max-width: ${(pr) => pr.theme.tablet}) {

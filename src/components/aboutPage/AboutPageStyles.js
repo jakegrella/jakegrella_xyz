@@ -6,6 +6,7 @@ const StyledAboutPage = styled.div`
 	flex-flow: column nowrap;
 	align-items: center;
 	margin: 0 auto;
+	padding-top: 8.5rem;
 	width: 80%;
 	.about-top {
 		/* border: 1px solid blue; */

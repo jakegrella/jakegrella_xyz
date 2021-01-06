@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 //logo
-import logo from '../../assets/dwylco-copyright_1.png';
+import logo from '../../assets/jg-logo-svg.svg';
 //style
 import StyledHeader from './HeaderStyles';
 //svg social icons
@@ -32,9 +32,9 @@ export default function Header() {
 				></div>
 			</Link>
 			<nav className='web-nav'>
-				<Link to='/community'>community</Link>
-				<Link to='/shop'>shop</Link>
+				<Link to='/work'>work</Link>
 				<Link to='/about'>about</Link>
+				<Link to='/shop'>shop</Link>
 				<a
 					className='snipcart-checkout snipcart-summary'
 					href='/'

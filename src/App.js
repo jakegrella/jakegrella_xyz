@@ -4,9 +4,8 @@ import { Route } from 'react-router-dom';
 import StyledApp from './AppStyles';
 
 import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
+// import Footer from './components/footer/Footer';
 import HomePage from './components/homePage/HomePage';
-import CommunityPage from './components/CommunityPage/CommunityPage';
 import AboutPage from './components/aboutPage/AboutPage';
 import ShopPage from './components/ShopPage/ShopPage';
 
@@ -15,8 +14,8 @@ export default function App() {
 		<StyledApp>
 			<Header />
 
-			<Route exact path='/community'>
-				<CommunityPage />
+			<Route exact path='/work'>
+				<AboutPage />
 			</Route>
 			<Route exact path='/shop'>
 				<ShopPage />
@@ -28,7 +27,7 @@ export default function App() {
 				<HomePage />
 			</Route>
 
-			<Footer />
+			{/* <Footer /> */}
 		</StyledApp>
 	);
 }

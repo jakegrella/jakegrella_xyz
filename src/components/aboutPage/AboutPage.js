@@ -40,7 +40,7 @@ export default function AboutPage() {
 					</p>
 				</div>
 			</section>
-			<section className='about-bottom'>
+			{/* <section className='about-bottom'>
 				<h3>
 					Me this
 					<br /> month:
@@ -62,8 +62,8 @@ export default function AboutPage() {
 						<p>tweets</p>
 						<p>3</p>
 					</div>
-				</div>
-			</section>
+				</div> 
+			</section> */}
 		</StyledAboutPage>
 	);
 }
