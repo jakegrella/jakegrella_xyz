@@ -50,13 +50,13 @@ export default function Header() {
 						<span className='snipcart-total-price'></span>
 					</span>
 				</a>
-				<button
+				{/* <button
 					className='snipcart-customer-signin'
 					href='#'
 					style={{ textDecoration: 'none' }}
 				>
 					<FaUser />
-				</button>
+				</button> */}
 			</nav>
 			<nav
 				className={
